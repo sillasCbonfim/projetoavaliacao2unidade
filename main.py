@@ -14,7 +14,7 @@ font = pygame.font.SysFont(None, 24) #inicaliza a fonte
 black = 0, 0, 0         #cor preta
 white = 255, 255, 255   #cor branca
 
-tela = pygame.display.set_mode([width,height],0,32) #Define o modo da tela
+tela = pygame.display.set_mode([width,height]) #Define o modo da tela
 
 centro = [(width-30)/2+15,(height-80)/2+15] #centro da messa
 
